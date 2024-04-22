@@ -38,10 +38,10 @@ public class FrogSimulation
 		for (int i = 0; i < num;i++){
 		if (simulate()==true ){
 			s++;
-		}
+		}}
 			return s/num;
-	
-	
+	}
+		
 	//ignore the code below this line
 	//-------------------------------------------------------------------------------------
 	private int[] hopValues;
